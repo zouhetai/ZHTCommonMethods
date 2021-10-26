@@ -1,0 +1,6 @@
+framework module ZHTCommonMethods {
+  umbrella header "ZHTCommonMethods-umbrella.h"
+
+  export *
+  module * { export * }
+}

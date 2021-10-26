@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D71F5562727F0D700F57A5C /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D71F5542727F0D700F57A5C /* TestModel.m */; };
+		2D71F5572727F0D700F57A5C /* IMG_3250.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D71F5552727F0D700F57A5C /* IMG_3250.PNG */; };
 		44203219CAB38B1A359D64A0 /* Pods_ZHTCommonMethods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124D563AFFBCE01D1CBFD0A /* Pods_ZHTCommonMethods_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D71F5532727F0D700F57A5C /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		2D71F5542727F0D700F57A5C /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		2D71F5552727F0D700F57A5C /* IMG_3250.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3250.PNG; sourceTree = "<group>"; };
 		3BF48B4925A5D38FA46FE3CD /* Pods-ZHTCommonMethods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTCommonMethods_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHTCommonMethods_Example/Pods-ZHTCommonMethods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4093B607F393EC1F2F2F533E /* Pods-ZHTCommonMethods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTCommonMethods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHTCommonMethods_Tests/Pods-ZHTCommonMethods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DEBFB76F0E210875E10B1FE /* Pods-ZHTCommonMethods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTCommonMethods_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZHTCommonMethods_Tests/Pods-ZHTCommonMethods_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,13 +64,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6DE2CB0DB32D0F44A4BF49DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6DE2CB0DB32D0F44A4BF49DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4EEB15F25F437DFC400865 /* Pods-ZHTCommonMethods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTCommonMethods_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHTCommonMethods_Example/Pods-ZHTCommonMethods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A1949A40D07DCA4DCA49DA0C /* Pods_ZHTCommonMethods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTCommonMethods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0BA62807E932D17E0229194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B1BB4CE8B8133DDC3BE65B5B /* ZHTCommonMethods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZHTCommonMethods.podspec; path = ../ZHTCommonMethods.podspec; sourceTree = "<group>"; };
+		B0BA62807E932D17E0229194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B1BB4CE8B8133DDC3BE65B5B /* ZHTCommonMethods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHTCommonMethods.podspec; path = ../ZHTCommonMethods.podspec; sourceTree = "<group>"; };
 		E124D563AFFBCE01D1CBFD0A /* Pods_ZHTCommonMethods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTCommonMethods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +108,6 @@
 				4093B607F393EC1F2F2F533E /* Pods-ZHTCommonMethods_Tests.debug.xcconfig */,
 				5DEBFB76F0E210875E10B1FE /* Pods-ZHTCommonMethods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +148,9 @@
 		6003F593195388D20070C39A /* Example for ZHTCommonMethods */ = {
 			isa = PBXGroup;
 			children = (
+				2D71F5552727F0D700F57A5C /* IMG_3250.PNG */,
+				2D71F5532727F0D700F57A5C /* TestModel.h */,
+				2D71F5542727F0D700F57A5C /* TestModel.m */,
 				6003F59C195388D20070C39A /* ZHTAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZHTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +287,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2D71F5572727F0D700F57A5C /* IMG_3250.PNG in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -367,6 +376,7 @@
 				6003F59E195388D20070C39A /* ZHTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZHTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2D71F5562727F0D700F57A5C /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +504,7 @@
 			baseConfigurationReference = 3BF48B4925A5D38FA46FE3CD /* Pods-ZHTCommonMethods_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZHTCommonMethods/ZHTCommonMethods-Prefix.pch";
 				INFOPLIST_FILE = "ZHTCommonMethods/ZHTCommonMethods-Info.plist";
@@ -510,6 +521,7 @@
 			baseConfigurationReference = 8A4EEB15F25F437DFC400865 /* Pods-ZHTCommonMethods_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZHTCommonMethods/ZHTCommonMethods-Prefix.pch";
 				INFOPLIST_FILE = "ZHTCommonMethods/ZHTCommonMethods-Info.plist";

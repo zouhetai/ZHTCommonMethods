@@ -1,0 +1,6 @@
+framework module Pods_ZHTCommonMethods_Tests {
+  umbrella header "Pods-ZHTCommonMethods_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ZHTCommonMethods (0.1.0)
+
+DEPENDENCIES:
+  - ZHTCommonMethods (from `../`)
+
+EXTERNAL SOURCES:
+  ZHTCommonMethods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHTCommonMethods: c87cf5d3bf278c6aeba68f559f6f67ea6c3c813d
+
+PODFILE CHECKSUM: b42b0a3f2f606e502d5105241fcccbef3ae0cc51
+
+COCOAPODS: 1.9.1

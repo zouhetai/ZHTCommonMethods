@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHTCommonMethods'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZHTCommonMethods.'
+  s.version          = '1.0.0'
+  s.summary          = '通用方法私有组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,24 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "组件用于iOS通用方法集合封装，使用方法为类方法直接调用，主要包含数据格式转换、数据保存、时间获取与比较等"
 
-  s.homepage         = 'https://github.com/1452327617@qq.com/ZHTCommonMethods'
+  s.homepage         = 'https://github.com/zouhetai/ZHTCommonMethods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1452327617@qq.com' => 'zouhetai@csii.com.cn' }
-  s.source           = { :git => 'https://github.com/1452327617@qq.com/ZHTCommonMethods.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zouhetai/ZHTCommonMethods.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZHTCommonMethods/Classes/**/*'
+  s.source_files = 'ZHTCommonMethods/Classes/*.{h,m,md}'
   
   # s.resource_bundles = {
   #   'ZHTCommonMethods' => ['ZHTCommonMethods/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/TienUtils.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
