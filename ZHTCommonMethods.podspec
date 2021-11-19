@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/zouhetai/ZHTCommonMethods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1452327617@qq.com' => 'zouhetai@csii.com.cn' }
-  s.source           = { :git => 'https://github.com/zouhetai/ZHTCommonMethods.git', :tag => "#{s.version}" }
+  s.author           = { 'zouhetai' => '1452327617@qq.com' }
+  s.source           = { :git => 'https://github.com/zouhetai/ZHTCommonMethods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'ZHTCommonMethods' => ['ZHTCommonMethods/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/TienUtils.h'
+  s.public_header_files = 'ZHTCommonMethods/Classes/TienUtils.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
